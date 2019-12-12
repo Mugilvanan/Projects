@@ -1,8 +1,11 @@
-// ----------------------------------------------------------------------------------
+// -----------------------------------------------------------------------------------
 // -- Module Name  : main.c
 // -- Project Name : Verification of AES GCM using systemverilog
 // -- Engineer Name: Mugilvanan Vinayagam
-// ----------------------------------------------------------------------------------
+// -- Description  : Function to get the inputs front he systemverilog testbench and 
+// --                convert it into pointer to send it to opensource C implementation
+// --                of AES GCM.
+// -----------------------------------------------------------------------------------
 
 #define _GNU_SOURCE
 #include "gcm.h"
