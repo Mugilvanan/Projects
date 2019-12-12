@@ -1,7 +1,8 @@
-# Code by Kanna Lakshmanan and Mugilvanan Vinayagam
-# Functional Simulator - Fetches instructions one by one and
-# sends it to each stage of the pipeline.
-
+"""
+Author     : Mugilvanan Vinayagam
+Date       : 2/6/2019.
+Description: Implementation of MIPS functional simulatior. 
+"""
 
 # stage flags
 fetch = 0

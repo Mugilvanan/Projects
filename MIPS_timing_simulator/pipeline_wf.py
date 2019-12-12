@@ -1,5 +1,5 @@
 """
-Author     : Mugilvanan Vinayagam, Kanna Lakshmanan.
+Author     : Mugilvanan Vinayagam
 Date       : 2/6/2019.
 Description: Implementation of pipeline with forwarding logic.  
 """

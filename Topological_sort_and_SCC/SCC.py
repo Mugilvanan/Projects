@@ -1,4 +1,10 @@
-class topological_sort:
+# ----------------------------------------------------------------------------------
+# -- Engineer Name : Mugilvanan Vinayagam
+# -- Description   : Python implementaton of strongly connected components algorithm  
+#                    using Recursion.  
+# ----------------------------------------------------------------------------------
+
+class SCC:
 
 	def __init__(self):
 		self.nodes = {}
@@ -60,7 +66,7 @@ class topological_sort:
 				self.sort(v)
 
 	# Function to find SCCs in the graph
-	def scc(self):
+	def find_scc(self):
 		self.sort_init()
 		self.stack.reverse()
 		for v in self.stack:
@@ -82,25 +88,25 @@ class topological_sort:
 				print(val, " ", end ='')
 			print()
 
-topo_sort_10 = topological_sort()
+scc_10 = SCC()
 
 print("Passing graph with 10 nodes....\n")
 
-topo_sort_10.initialisation("graph_10.txt")
+scc_10.initialisation("graph_10.txt")
 
-topo_sort_10.scc()
+scc_10.find_scc()
 print("SCCs in the graph:")
-topo_sort_10.printing_scc()
+scc_10.printing_scc()
 
-topo_sort_15 = topological_sort()
+scc_15 = SCC()
 
 print("\n\nPassing graph with 15 nodes....\n")
 
-topo_sort_15.initialisation("graph_15.txt")
+scc_15.initialisation("graph_15.txt")
 
-topo_sort_15.scc()
+scc_15.find_scc()
 print("SCCs in the graph:")
-topo_sort_15.printing_scc()
+scc_15.printing_scc()
 
 
 

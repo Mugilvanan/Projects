@@ -1,3 +1,9 @@
+# ----------------------------------------------------------------------------------
+# -- Engineer Name : Mugilvanan Vinayagam
+# -- Description   : Python implementaton of topological sort algorithm using 
+#                    Recursion.  
+# ----------------------------------------------------------------------------------
+
 class topological_sort:
 
 	def __init__(self):
